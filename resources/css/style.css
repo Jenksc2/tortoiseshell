@@ -1,0 +1,50 @@
+/*Global CSS*/
+html {
+  font-size: 18px;
+}
+
+/*Header CSS*/
+header {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: cadetblue;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 1rem;
+  color: white;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo-top {
+  height: 1.5rem;
+  padding: 0 1rem 0 2rem;
+}
+
+.full-nav {
+  padding: 1rem 0;
+}
+.full-nav span{
+  padding: 1rem 2rem 1rem 0rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+/*Banner CSS*/
+.banner {
+  background-image: url(../images/glasses-bg.png);
+}
+
+/*Content CSS*/
+
+
+/*Footer CSS*/

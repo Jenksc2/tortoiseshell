@@ -71,6 +71,69 @@ header {
 }
 
 /*Content CSS*/
+.support-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
 
+.support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 8rem;
+  width: 5rem;
+  text-align: center;
+  padding: 3rem;
+}
+
+.image {
+  width: 5rem;
+}
+
+.image-paper{
+  width: 3.5rem;
+}
+
+.image span {
+  display: block;
+}
+
+.info-container {
+  max-width: 970px;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  width: 35%;
+  margin-right: 5%;
+}
+.title h2 {
+  font-weight: bold;
+  padding: .5rem 1.25rem;
+  background-color: cadetblue;
+  margin-bottom: 1rem;
+  width: 10rem;
+}
 
 /*Footer CSS*/
+
+.copyright {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+  background-color: azure;
+}
+
+.logo-bottom {
+  height: 1.5rem;
+  padding-right: 1rem;
+}

@@ -14,6 +14,7 @@ header {
   position: relative;
   top: 1rem;
   color: white;
+  z-index: 1;
 }
 
 .brand {
@@ -42,6 +43,31 @@ header {
 /*Banner CSS*/
 .banner {
   background-image: url(../images/glasses-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 31rem;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  top: 1rem;
+}
+
+.headline {
+  background-color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 2.5rem 5rem;
+  position: relative;
+  left: 2rem;
+  top: 10rem;
 }
 
 /*Content CSS*/

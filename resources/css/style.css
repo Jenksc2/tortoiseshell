@@ -30,15 +30,33 @@ header {
 .full-nav {
   padding: 1rem 0;
 }
-.full-nav span{
+.full-nav span {
   padding: 1rem 2rem 1rem 0rem;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 621px) {
   .mobile-nav {
     display: none;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  header {
+    max-width: 100%;
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .full-nav {
+    display: none;
+  }
+  .mobile-nav {
+    padding: 1rem 2rem 1rem 0rem;
+  }
+}
+
+
 
 /*Banner CSS*/
 .banner {
@@ -68,6 +86,38 @@ header {
   position: relative;
   left: 2rem;
   top: 10rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner {
+    height: 22rem;
+  }
+  .container {
+    max-width: 100%;
+    top: 0;
+  }
+  .headline {
+    font-size: 1.33rem;
+    padding: 1.5rem 4rem;
+    top: 5rem;
+    left: -2rem;
+
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .banner {
+    height: 17rem;
+    background-position: 20%;
+  }
+  .headline {
+    top: 9rem;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+  }
 }
 
 /*Content CSS*/
@@ -106,7 +156,7 @@ header {
   max-width: 970px;
   margin: 0 auto;
   padding-bottom: 5rem;
-  display: flex;
+  display: flex;s
   justify-content: center;
 }
 
@@ -122,6 +172,36 @@ header {
   width: 10rem;
 }
 
+@media only screen and (max-width: 620px) {
+  .support-container {
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.77rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .support {
+    padding: .77rem;
+    justify-content: space-around;
+  }
+  .image-paper {
+    padding-bottom: 1rem;
+  }
+  .info-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .title {
+    width: 100%;
+    padding-bottom: 4rem;
+    font-size: 0.77rem;
+  }
+  .title h2 {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+}
 /*Footer CSS*/
 
 .copyright {
@@ -136,4 +216,10 @@ header {
 .logo-bottom {
   height: 1.5rem;
   padding-right: 1rem;
+}
+
+@media only screen and (max-width: 640px) {
+  .copyright {
+    justify-content: center;
+  }
 }
